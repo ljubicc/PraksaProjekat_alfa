@@ -84,7 +84,7 @@ public class Osoba {
 	}
 	
 	// metoda uporedjuje broj pozitivnih i broj negativnih smajlija i  
-	// na osnovu toga vraca String informaciju ------------ 4. zadatak
+	// na osnovu toga vraca String podatak ------------ 4. zadatak
 	public String dispozicija() {
 		if(prebrojHappy() > prebrojSad())
 			return "pozitivna dispozicija";
@@ -92,7 +92,7 @@ public class Osoba {
 			return "negativna dispozicija";
 	}
 	
-	// razlika izmedju srecnih i tuznih smajlija osobe
+	// razlika izmedju srecnih i tuznih smajlija osobe ( potrebno za odredjivanje naj + ili naj - dispozicije )
 	public int rasponDispozicije() {
 		return prebrojHappy() - prebrojSad();
 	}
